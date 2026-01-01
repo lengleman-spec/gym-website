@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(8, 8, 8);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -15,16 +19,18 @@ header {
 
 .logo {
   font-size: 1.5rem;
+  color: white;
 }
 
 .logo a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .menu {
   position: relative;
 }
+
 /* Hide checkbox */
 #menu-toggle {
   display: none;
@@ -43,7 +49,7 @@ header {
 .hamburger span {
   display: block;
   height: 4px;
-  background: #333;
+  background: white;
   border-radius: 2px;
   transition: 0.3s;
 }
@@ -113,4 +119,15 @@ nav a {
 .hero-container > * {
   position: relative;
   z-index: 2;
+}
+
+.hero-container p {
+  font-size: 2rem;
+}
+
+.hero-container button {
+  font-size: 1.1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 50px;
+  margin-top: 1rem;
 }
