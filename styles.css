@@ -131,3 +131,25 @@ nav a {
   border-radius: 50px;
   margin-top: 1rem;
 }
+
+/* ================== FEATURES ==================  */
+.features-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid red;
+}
+
+.features-container i {
+  color: rgb(255, 219, 14);
+  font-size: 2rem;
+}
+
+.features-text h3 {
+  font-size: 1.5rem;
+}
+
+.features-text p {
+  font-size: 1.2rem;
+}
