@@ -34,3 +34,26 @@ header {
   border-radius: 2px;
   transition: 0.3s;
 }
+
+nav {
+  position: absolute;
+  top: 50px;
+  left: -80px;
+  width: 200px;
+  background: #f1f1f1;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Show menu when checked */
+#menu-toggle:checked + .hamburger + nav {
+  display: flex;
+}
