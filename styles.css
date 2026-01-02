@@ -133,17 +133,23 @@ nav a {
 }
 
 /* ================== FEATURES ==================  */
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .features-container {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   border: 2px solid red;
 }
 
 .features-container i {
   color: rgb(255, 219, 14);
   font-size: 2rem;
+  margin: 0 3rem;
 }
 
 .features-text h3 {
