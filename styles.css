@@ -137,13 +137,22 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin: 3rem 1rem;
+}
+
+.features h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .features-container {
   color: white;
   display: flex;
   align-items: center;
-  border: 2px solid red;
+  border: 2px solid gray;
+  border-radius: 6px;
+  padding: 1rem;
 }
 
 .features-container i {
