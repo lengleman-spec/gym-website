@@ -190,6 +190,8 @@ nav a {
   border: 2px solid white;
   border-radius: 8px;
   padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .plan h3 {
@@ -211,4 +213,12 @@ nav a {
 
 .plan li {
   padding: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.plan button {
+  font-size: 1.1rem;
+  padding: 0.3rem 2rem;
+  margin: 1rem auto 0;
+  border-radius: 50px;
 }
