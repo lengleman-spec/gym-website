@@ -127,12 +127,26 @@ nav a {
 }
 
 .hero-container button {
-  font-size: 1.1rem;
-  font-weight: 600;
-  padding: 0.2rem 1rem;
+  background: linear-gradient(
+    135deg,
+    #ffe066 0%,
+    #ffd000 40%,
+    #ffb000 70%,
+    #ff8c00 100%
+  );
+  border: none;
   border-radius: 50px;
-  margin-top: 1rem;
-  background-color: gold;
+  padding: 0.4rem 1.4rem;
+  font-weight: 700;
+  color: #000;
+  font-size: 1.2rem;
+  margin: 1.1rem 0;
+  box-shadow: 0 6px 15px rgba(255, 219, 14, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-content {
+  z-index: 2;
 }
 
 /* ================== FEATURES ==================  */
@@ -213,7 +227,15 @@ nav a {
   padding: 0.2rem 1rem;
   border-radius: 50px;
   margin-top: 1rem;
-  background-color: gold;
+  box-shadow: 0 6px 15px rgba(255, 219, 14, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: linear-gradient(
+    135deg,
+    #ffe066 0%,
+    #ffd000 40%,
+    #ffb000 70%,
+    #ff8c00 100%
+  );
 }
 
 /* ===== MEMBERSHIP PLANS ===== */
