@@ -173,13 +173,30 @@ nav a {
 /* ===== MEMBERSHIP PLANS ===== */
 .membership-section h2 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
   margin: 2rem 0;
 }
+
 .membership-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+}
+
+.plan {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 1rem 5rem;
+}
+
+.plan h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.plan ul {
+  list-style-type: none;
 }
