@@ -128,9 +128,11 @@ nav a {
 
 .hero-container button {
   font-size: 1.1rem;
+  font-weight: 600;
   padding: 0.2rem 1rem;
   border-radius: 50px;
   margin-top: 1rem;
+  background-color: gold;
 }
 
 /* ================== FEATURES ==================  */
@@ -168,6 +170,50 @@ nav a {
 
 .features-text p {
   font-size: 1.2rem;
+}
+
+/* ===== DEAL / PICTURE ===== */
+.deal {
+  background-image: url(gym.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Adds darker tint */
+.deal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.deal > * {
+  position: relative;
+  z-index: 2;
+}
+
+.deal button {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.2rem 1rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  background-color: gold;
 }
 
 /* ===== MEMBERSHIP PLANS ===== */
