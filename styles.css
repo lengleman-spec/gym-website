@@ -360,3 +360,11 @@ nav a {
   border-radius: 22px;
   display: block;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
