@@ -411,4 +411,26 @@ footer {
 }
 
 @media screen and (min-width: 950px) {
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background: none;
+    width: auto;
+    padding: 0;
+  }
+
+  nav a {
+    color: white;
+    font-weight: 500;
+  }
+
+  header {
+    justify-content: space-between;
+  }
 }
