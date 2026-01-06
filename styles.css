@@ -95,7 +95,7 @@ nav a {
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 200px;
+  min-height: clamp(300px, 50vh, 700px);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -396,4 +396,15 @@ footer {
   gap: 1rem;
 }
 
-/* ===== MEDIA QUERIES (first to be 625px) ===== */
+/* ===== MEDIA QUERIES ===== */
+@media screen and (min-width: 740px) {
+  .membership-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+
+  .plan button {
+    margin-top: auto;
+  }
+}
