@@ -151,8 +151,8 @@ nav a {
 
 /* ================== FEATURES ==================  */
 .features {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin: 3rem 1rem;
 }
@@ -169,7 +169,12 @@ nav a {
   align-items: center;
   border: 2px solid gray;
   border-radius: 6px;
-  padding: 1rem;
+  width: 100%;
+  max-width: clamp(320px, 90vw, 900px);
+  height: 180px;
+  min-height: 180px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .features-container i {
@@ -354,9 +359,10 @@ nav a {
 
 .trainer-card img {
   width: 80vw;
-  max-height: 400px;
+  max-width: 500px;
+  height: auto;
   background-color: #000;
-  /* object-fit: cover; */
+  object-fit: cover;
   border-radius: 22px;
   display: block;
 }
@@ -389,3 +395,5 @@ footer {
   flex-direction: column;
   gap: 1rem;
 }
+
+/* ===== MEDIA QUERIES (first to be 625px) ===== */
