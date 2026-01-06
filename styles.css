@@ -397,14 +397,18 @@ footer {
 }
 
 /* ===== MEDIA QUERIES ===== */
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 795px) {
   .membership-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: stretch;
+    padding: 0 2rem;
   }
 
   .plan button {
     margin-top: auto;
   }
+}
+
+@media screen and (min-width: 950px) {
 }
