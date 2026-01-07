@@ -478,3 +478,10 @@ footer {
     padding: 1.5rem;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .membership-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
