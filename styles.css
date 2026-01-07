@@ -484,4 +484,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .logo {
+    font-size: 2.2rem;
+  }
+  nav a {
+    font-size: 2rem;
+  }
 }
