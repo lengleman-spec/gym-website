@@ -189,11 +189,22 @@ nav a {
 }
 
 .features-text h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .features-text p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.features-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
 }
 
 /* ===== DEAL / PICTURE ===== */
@@ -334,7 +345,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .trainers-section h2 {
@@ -347,19 +358,21 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .trainer-card h3 {
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  margin: 1rem 0;
+  padding-top: 1rem;
 }
 
 .trainer-card p {
   font-size: 1.4rem;
   font-weight: 400;
-  padding: 0.5rem 1rem;
-  margin: 0 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .trainer-card img {
@@ -370,6 +383,18 @@ nav a {
   object-fit: cover;
   border-radius: 22px;
   display: block;
+}
+
+.trainer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.trainer-text p {
+  padding-left: 0;
+  font-size: 1.6rem;
 }
 
 /* Footer */
