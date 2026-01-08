@@ -505,6 +505,12 @@ footer {
   .features-text p {
     font-size: 1.7rem;
   }
+  .features-section h2,
+  .membership-section h2,
+  .about-section h2,
+  .trainers-section h2 {
+    font-size: 3rem;
+  }
   .deal {
     font-size: 3rem;
   }
@@ -512,17 +518,32 @@ footer {
     font-size: 1.75rem;
     padding: 1rem 2rem;
   }
+  .plan {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
   .plan ul li {
     font-size: 1.5rem;
   }
   .plan h3 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
+
   .plan li {
     display: grid;
     grid-template-columns: 1.5rem 1fr;
     column-gap: 0.6rem;
     align-items: start;
     padding: 0.2rem 0;
+  }
+  .plan button {
+    font-size: 1.6rem;
+  }
+  .plan-header p {
+    font-size: 1.5rem;
+  }
+  .about-section p {
+    font-size: 1.8rem;
   }
 }
