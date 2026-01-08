@@ -546,4 +546,11 @@ footer {
   .about-section p {
     font-size: 1.8rem;
   }
+  .trainer-card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 2rem;
+    border-radius: 20px;
+  }
 }
