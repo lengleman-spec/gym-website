@@ -479,7 +479,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .membership-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -489,5 +489,20 @@ footer {
   }
   nav a {
     font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 3rem;
+  }
+  .hero-content button {
+    font-size: 1.8rem;
+  }
+  .features-container i {
+    font-size: 3.5rem;
+  }
+  .features-text h3 {
+    font-size: 2rem;
+  }
+  .features-text p {
+    font-size: 1.7rem;
   }
 }
